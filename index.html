@@ -1,40 +1,184 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0,
+      user-scalable=no"
+      />
 
-		<title>reveal.js</title>
+    <title>Front End Overview</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal" style="background-color: black">
+      <div class="slides">
+        <section style="background-color: black">
+          <u><h4>Beginners Guide to Front End Development</h4></u>
+          <img src="/css/front.gif" />
+          <p>Created By Rafay Nadeem</p>
+        </section>
+        <section>
+          <div>
+            <h4>What is Front End Development?</h4>
+            <hr/>
+              <p>
+                Front-end web development is the development of the graphical
+                user
+                interface of a website, through the use of HTML, CSS, and
+                JavaScript, so that users can view and interact with that
+                website.
+                Front End recieves the Data from Back End through APIs.
+              </p>
+              <img src="/css/data.gif" style="width: 30%" />
+            </div>
+          </section>
+          <section>
+            <div>
+              <h4>Dive into Some Important Front End Topics</h4>
+              <hr />
+              <li>Some Basics of HTML Tags</li>
+              <li>CSS</li>
+              <li>Media Query</li>
+              <li>Animation and Transitions</li>
+              <li>Grid</li>
+              <li>Flexbox</li>
+              <li>Some Basics Of JavaScript</li>
+            </div>
+          </section>
+          <section>
+            <div>
+              <h4>Some Basics of HTML Tags</h4>
+              <hr />
+              <li>The p tag is used for Paragraph</li>
+              <li>The h tag is used for Headings which are upto 6</li>
+              <li>
+                Div is commonly used for making a division of content for
+                styling
+                etc.
+              </li>
+              <img src="/css/html.gif" height="320px" width="80%" />
+            </div>
+          </section>
+          <section>
+            <h4>Cascading Style Sheet (CSS)</h4>
+            <hr />
+            <li>CSS is used to Style the HTML Elements</li>
+            <li>. is used to style on Classes</li>
+            <li># is used to style on IDs</li>
+            <img src="/css/css.gif" />
+          </section>
+          <section>
+            <h4>Media Query in CSS</h4>
+            <hr />
+            <li>
+              Media Query is a CSS Query which is used for handling
+              responsiveness
+              under certain situations given to the Query
+            </li>
+          </section>
+          <section>
+            <h4>Media Query in CSS</h4>
+            <hr />
+            <p>
+              For Example width and Height is given in the Query to adjust the
+              behaviour of the Application when the height and width adjusts.
+            </p>
+            <img src="/css/media.gif" alt="" height="400px" width="80%" />
+          </section>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+          <section>
+            <div>
+              <h4>Grid</h4>
+              <hr />
+              <li>
+                Grid is used to give a specific area to a specific Components
+              </li>
+              <p>We usually use grid in Bootstrap as col-span-md-3</p>
+              <p>
+                We adjust the Specific size allocated to the component using
+                properties such as:
+              </p>
+              <li>xs (Extra Small) Device</li>
+              <li>sm (Small) Device Mobile || Phones etc</li>
+              <li>md (Medium) Device || Tabs Etc</li>
+              <li>lg (Large) Device || PCs and Laptops</li>
+            </div>
+          </section>
+          <section><img src="/css/grid.gif" /></section>
+          <section>
+            <h4>Flexbox</h4>
+            <hr />
+            <p>
+              Flexbox is hands down the best way to give position to the
+              element.
+            </p>
+            <img src="/css/flex.webp" />
+          </section>
+          <section>
+            <div>FLEXBOX</div>
+            <hr />
+            <li>
+              The Flexible Box Module, usually referred to as flexbox, was
+              designed as a one-dimensional layout model, and as a method that
+              could offer space distribution between items in an interface and
+              powerful alignment capabilities.
+            </li>
+            <li>
+              Flexbox became much popular after Responsiveness became more
+              popular
+              and Webpage's positioning became much more important then earlier.
+            </li>
+          </section>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
-</html>
+          <section>
+            <div>
+              <h4>Some Important Overview of JavaScript</h4>
+              <hr/>
+              <li>
+                A variable is assigned in JavaScript using let,const and var.
+              </li>
+              <li>
+                The ES6 Version of JS included many new updates included OOP.
+              </li>
+              <li>
+                Arrow Function is the Simplest Way to Define a Function with
+                Shortest Syntax.
+              </li>
+              <li>JavaScript is basically a Synchrounus Language.</li>
+              <li>Event Handling is the Best using JavaScript.</li>
+            </div>
+          </section>
+          <section>
+            <img src="/css/js.gif" alt="" />
+          </section>
+          <section>
+            <img src="/css/t.gif" alt="" />
+          </section>
+        </div>
+      </div>
+
+      <script src="dist/reveal.js"></script>
+      <script src="plugin/notes/notes.js"></script>
+      <script src="plugin/markdown/markdown.js"></script>
+      <script src="plugin/highlight/highlight.js"></script>
+      <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+    </body>
+  </html>
