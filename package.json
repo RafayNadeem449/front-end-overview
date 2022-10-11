@@ -1,5 +1,5 @@
 {
-  "name": "reveal.js",
+  "name": "reveal",
   "version": "4.3.1",
   "description": "The HTML Presentation Framework",
   "homepage": "https://revealjs.com",
@@ -12,11 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom"
   },
-  "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
-  },
+  "author": "Hakim El Hattab <hakim.elhattab@gmail.com> (https://hakim.se)",
   "repository": {
     "type": "git",
     "url": "git://github.com/hakimel/reveal.js.git"
@@ -101,5 +97,12 @@
   "dependencies": {
     "heroku": "^7.64.0",
     "reveal.js": "^4.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/hakimel/reveal.js/issues"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
   }
 }
